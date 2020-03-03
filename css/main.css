@@ -150,6 +150,28 @@ h2 {
 	PAGE ELEMENTS
 ==================================================================================== 
 */
+#heroImg{
+	background: url("../images/hero-imagee.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 300px 0;
+}
+.heroText{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+
+}
+#heroImg .heroText h1{
+    justify-content: flex-start;
+    font: 4rem;
+    color: #F0C3D7;
+}
+#heroImg .heroText p{
+ 
+    width: 50%;
+    color: #fff;
+    margin-left: 40px;
+}
  #footer {
 background-color: #F4E0E9;
 }
@@ -222,6 +244,6 @@ margin-right: 6px;
     float: left;
 }
 #copyright p{
-    padding-left: 10px;
+    padding-left: 20px;
 }
   
