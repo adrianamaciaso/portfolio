@@ -218,5 +218,10 @@ margin-right: 6px;
       display: flex;
       justify-content: flex-end;
     } 
-    
+#copyright{
+    float: left;
+}
+#copyright p{
+    padding-left: 10px;
+}
   
