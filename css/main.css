@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/* CSS Document */
+/* 
+====================================================================================
+	GLOBAL ELEMENTS
+==================================================================================== 
+*/
+body {
+  font-family: futura-pt, sans-serif;
+  font-style: book;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5rem;
+  color: #555;
+  padding-top: 40px;
+  min-width: 380px;
+}
+img {
+  display: block; /*removes extra space below images (space left in for text descenders) */
+  max-width: 100%; /* fluid width */
+  height: auto; /* maintains aspect ratio */
+  -ms-interpolation-mode: bicubic; /* Helps IE to render images better */
+}
+.clearfix::after, .clearfix::before { /*pseudo elements are not in the DOM, and use "::"*/
+  content: "";
+  display: table;
+  clear: both;
+}
+.visuallyhidden { /* this is accessibly, and better to use than display: none */
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+/* 
+====================================================================================
+	TYPOGRAPHY
+==================================================================================== 
+*/
+p {
+  margin-bottom: 20px;
+}
+b, strong {
+  font-weight: bold;
+}
+em {
+  font-style: normal;
+}
+/*a,
+a:link,
+a:visited  {
+	color: #000;
+	text-decoration: none;
+    font-family: futura-pt, sans-serif;
+    font-style: book;
+    font-weight: 300;
+	font-size: 18px;
+    
+	
+}
+
+a:hover,
+a:focus,
+a:active { 
+	text-decoration: underline;
+}
+*/
+/* 
+======================
+	HEADINGS 
+====================== 
+*/
+/* All Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: rig-solid-bold-fill, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #D6A8C2;
+  font-size: 1.75rem;
+  line-height: 1.25em;
+  margin-bottom: 0.75em;
+}
+/* Individual Headings */
+h1 {
+  font-size: 1.75rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+/* 
+====================================================================================
+	STRUCTURE
+==================================================================================== 
+*/
+* /* 
+====================================================================================
+	SLICK NAV
+==================================================================================== 
+*/
+.slicknav_menu {
+  float: left;
+  margin-top: 8px;
+}
+.slicknav_btn {
+  background-color: transparent;
+  float: none;
+}
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #fff;
+}
+.slicknav_nav ul, .slicknav_nav li {
+  padding: 0;
+  margin: 0;
+}
+.slicknav_nav ul {
+  margin-bottom: 15px;
+}
+.slicknav_nav a {
+  text-align: center;
+  border-bottom: 1px #f1f1f1 solid;
+  color: #000;
+  padding: 0;
+}
+.slicknav_nav a:hover {
+  color: #28b2f2;
+  background-color: transparent;
+}
+.slicknav_nav {
+  position: absolute;
+  z-index: 300;
+  background-color: #fff;
+  width: 250px;
+  top: 50px;
+  left: 0;
+  color: #000;
+}
+.slicknav_nav button, .slicknav_nav input {
+  width: 90%;
+}
+#menu {
+  display: none;
+}
+/* 
+====================================================================================
+	PAGE ELEMENTS
+==================================================================================== 
+*/
+ #footer {
+background-color: #F4E0E9;
+}
+
+#copyright p{
+padding-top: 10px;
+display: flex;
+justify-content: center;
+}
+
+#social {
+display: flex;
+justify-content: center;
+}
+
+#social ul li {
+list-style: none;
+}
+
+#social ul li a {
+color: #fff;
+margin-left: 6px;
+margin-right: 6px;
+}
+/* 
+
+/*
+====================================================================================
+	MEDIA QUERY < 768
+==================================================================================== 
+*/
+  @media only screen and (min-width: 768px) { 
+
+              }
+
+    /* 
+====================================================================================
+	MEDIA QUERY > 1024
+==================================================================================== 
+*/
+    @media screen and (min-width: 1024px) {
+      h2 {
+        color: #1e1e1e;
+        font-size: 2rem;
+      }
+      #services .flex-container {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+      }
+     
+      #brand {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+      }
+    }
+    .row {
+      display: flex;
+      justify-content: center;
+    }
+    .pictures {
+      margin: 4px;
+    }
+    #social {
+      display: flex;
+      justify-content: flex-end;
+    } 
+    
+  
