@@ -12,98 +12,117 @@
 <meta name="description" content="Adriana Macias | Graphic designer currently based in London, Ontario. My work specializes in branding, packaging, and layout design" />
 <meta property="og:description" content="Adriana Macias | Graphic designer currently based in London, Ontario. My work specializes in branding, packaging, and layout design." />
 
-<!--CSS-->
-<link rel="stylesheet" href="file:///ADRIANA/W2020/Interactive Design/macias_a_portfolio/css/reset.css" type="text/css">
-    
-<!--Third Party CSS-->
-    
-<link rel="stylesheet" href="https://use.typekit.net/hps8hzw.css">
-<link rel="stylesheet" href="https://use.typekit.net/hps8hzw.css">    
+<!--css bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-<link href="css/flexslider.css" rel="stylesheet" type="text/css">
-<link href="css/slicknav.css" rel="stylesheet" type="text/css">
     
-<!--Custom CSS-->
+<!--CSS style sheet-->
 <link href="css/main.css" rel="stylesheet" type="text/css">
+    
+<!--adobe font kit-->
+<link rel="stylesheet" href="https://use.typekit.net/hps8hzw.css">
 
+  
+<!--font awesome-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!--JS--> 
-<script src="file:///ADRIANA/W2020/Interactive Design/macias_a_portfolio/js/modernizr.custom.10791.js"></script> 
-<script src="file:///ADRIANA/W2020/Interactive Design/macias_a_portfolio/js/jquery-1.11.2.min.js"></script> 
-<script src="file:///ADRIANA/W2020/Interactive Design/macias_a_portfolio/js/flexslider/jquery.flexslider.js"></script> 
-<script src="file:///ADRIANA/W2020/Interactive Design/macias_a_portfolio/js/SlickNav-master/jquery.slicknav.js"></script> 
-<script src="file:///ADRIANA/W2020/Interactive Design/macias_a_portfolio/js/jquery.anchor.js"></script> 
-<script>
-	$(window).load(function(){ // trigger code
-		$('.flexslider').flexslider();
-		$('#menu').slicknav(); // change #menu to match your markup
-		
-	});
-</script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+
 </head>
-
 <body>
-<header id="masthead" role="banner">
-     <div class="content">
-    <div id="menu">
-    <nav>
-     <div class="logo"><img src="images/macias-logo.png" alt="Adriana Macias, graphic designer personal logo"/></div>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-         </nav>
-    </div>
-         </div>
-    </header>
-    
-    
-    <main role="main">
-    <section id="heroImg">
-    <div class="flex-container">  
-    <div class="heroText"><h1>Hey there!</h1></div>
-    <div class="heroText"><p>I’m Adriana, graphic designer. Currently based in London, Ontario. This portfolio contains project from 2017- 2020. My work is most branding, layout, and packaging design. I look forward to share my ideas, and explore my design values. Don’t hesitate to ask if you’re interested in working with me!</p></div></div>  
-    </section>
-    </main>
-    
-    <section id="services">
-    <h2>services</h2>
-    <div class="flex-container">
-    <div class="servicesIcons">
-    <figure><img src="images/logo-design.png" alt="logo design | pen tool"/></figure>
-    <h3>Logo design</h3></div> 
-        
-     <div class="servicesIcons">
-        <figure><img src="images/brand-identity.png" alt="brand identity logo"/></figure>
-         <h3>Brand Identity</h3>
-        </div>   
-        
-    <div class="servicesIcons">
-        <figure><img src="images/layout design.png" alt="layout design"/></figure><h3>Layout design</h3>
-        </div>
-        
-    </div>    
-    </section>
-    
-    <footer id="footer" role="contentinfo">
-          <div class="flex-container">
-        <div id="copyright"><p>All images Adriana Macias  &copy;</p></div></div>
-       
-        
-        <div id="social" class="flex-container">
-            <ul>
-                <li>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-behance"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-            </ul>
-        
-        </div>
-    </footer>
 
+    <header id="masthead" class="container text-center" role="banner">
+        <nav class="navbar navbar-expand-lg navbar-light" role="navigation">
+            <a class="navbar-brand" href="#">
+            <figure>
+                <img src="images/macias-logo.png" alt="Adriana Macias Graphic designer logo"/>
+                <figcaption>Adriana Macias personal logo</figcaption>
+                </figure>
+            </a>
+            
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle-navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+            
+         <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="index.html">home <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
+            </ul>   
+        </div>
+            
+        </nav>
+    </header>  
+    
+    <div id="hero" class="container-fluid" role="img">
+	<div id="gradient" class="row">
+		<div class="col">
+		
+<h1>Hey there!</h1>
+<p id="heroText" class="text-center">I’m Adriana, graphic designer. Currently based in London, Ontario. This portfolio contains project from 2017- 2020. My work is most branding, layout, and packaging design. I look forward to share my ideas, and explore my design values. Don’t hesitate to ask if you’re interested in working with me!</p>
+		</div>
+	</div>
+</div>
+    
+    
+<main id="content" role="main">
+<section class="services" role="region">
+    <h1>Services</h1>
+<div class="container text-center">
+    <div class="row text-center">
+        
+        <div class="col-lg-4 col-md-4">
+        <img src="images/logo-design.png" alt="pen tool"/> 
+        <h2>Logo design</h2>
+        </div>
+        
+          <div class="col-lg-4 col-md-4">
+        <img src="images/brand-identity.png" alt="brand identity tools"/>
+        <h2>Brand Identity</h2>
+        </div>
+          
+        <div class="col-lg-4 col-md-4">
+        <img src="images/layout design.png" alt="magazine page vector"/> 
+        <h2>Layout design</h2>
+        </div>
+    
+    </div>
+    </div>    
+</section>    
+</main>
+    
+
+<footer id="footer">
+ <section id="social" role="region">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col py-1"> 
+                    <a href="#"><i class="fa fa-facebook-square"></i></a> 
+                    <a href="#"><i class="fa fa-google-plus-square"></i></a> 
+                    <a href="#"><i class="fa fa-linkedin-square"></i></a> 
+                    <a href="#"><i class="fa fa-pinterest-square"></i>
+                    </a> <a href="#"><i class="fa fa-share-alt-square"></i></a> 
+                </div>
+			</div>
+		</div>
+	</section>
+
+
+
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-1">© 2020 Adriana Macias | London, ON | Graphic Designer
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->    
 </body>
-</html>
+</html>    
+
