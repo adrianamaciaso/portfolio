@@ -47,6 +47,23 @@ b, strong {
 em {
   font-style: normal;
 }
+a, a:link, a:visited {
+	color: #D7B6CA;
+	text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a:hover, a:focus, a:active {
+	color: #795454;
+}
+#heroHeading{
+    margin-top: 50px;}
+#heroText{
+    color: white;
+}
+#contact h2{
+    color: #F1F1F1;
+}
 
 /* 
 ======================
@@ -55,21 +72,25 @@ em {
 */
 /* All Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: rig-solid-bold-fill, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  text-align: center;
-  color: #D6A8C2;
-  font-size: 1.75rem;
+  font-family: fairwater-script, sans-serif;
+font-style: normal;
+font-weight: 800;
+text-align: center;
   line-height: 1.25em;
   margin-bottom: 0.75em;
 }
 /* Individual Headings */
 h1 {
-  font-size: 1.75rem;
+  font-size: 2.5em;
+color: #F5F5F5;
 }
 h2 {
-  font-size: 1.5rem;
+    margin-top: 20px;
+    font-size: 2em;
+    color: #BBA7A8;
+}
+h3{
+    margin-top: 20px;
 }
 /* 
 ====================================================================================
@@ -81,57 +102,54 @@ h2 {
 NAVIGATION
 ==================================================================================== 
 */
-
 /* 
 ====================================================================================
 	PAGE ELEMENTS
 ==================================================================================== 
 */
-#heroImg{
-	background: url("../images/hero-imagee.jpg") no-repeat center center;
-	background-size: cover;
-	padding: 300px 0;
-}
-.heroText{
-    display: flex;
-    flex-direction: column;
-    padding-right: 30px;
-
-}
-#heroImg .heroText h1{
-    justify-content: flex-start;
-    font: 4rem;
-    color: #F0C3D7;
-}
-#heroImg .heroText p{
- 
+#logo{
     width: 50%;
-    color: #fff;
-    margin-left: 40px;
-}
- #footer {
-background-color: #F4E0E9;
+    height: 50%;
 }
 
+#hero{
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/mobile_bg.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+} 
+ #footer {
+background-color: #E6D0D5;
+}
 #copyright p{
 padding-top: 10px;
 display: flex;
 justify-content: center;
 }
 
-#social {
-display: flex;
-justify-content: center;
+#contact{
+     width: 100%;
+    height: 550px;
+    background-image: url("../images/mobile_bg.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+}
+#contact  .btn{
+    color: #fff;
+    background-color: #1e1e1e;
+ border: 1px solid rgba(48,48,48,1.00);
 }
 
-#social ul li {
-list-style: none;
+#social a:link, #social a:visited{
+    color: #FAFAFA;
+    font-size: 2em;
 }
 
-#social ul li a {
-color: #fff;
-margin-left: 6px;
-margin-right: 6px;
+#social a:hover, #social a:focus, #social a:active{
+    color: #48303E;
 }
 /* 
 
@@ -141,8 +159,21 @@ margin-right: 6px;
 ==================================================================================== 
 */
   @media only screen and (min-width: 768px) { 
-
-              }
+#hero{
+    width: 100%;
+    height: 550px;
+    background-image: url("../images/hero-imagee.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+}
+#heroHeading{
+    margin-top: 120px;
+}
+      #contact{
+              height: 475px;
+      }
+}
 
     /* 
 ====================================================================================
@@ -150,37 +181,7 @@ margin-right: 6px;
 ==================================================================================== 
 */
     @media screen and (min-width: 1024px) {
-      h2 {
-        color: #1e1e1e;
-        font-size: 2rem;
-      }
-      #services .flex-container {
-        display: flex;
-        justify-content: center;
-        height: 100%;
-      }
-     
-      #brand {
-        display: flex;
-        justify-content: center;
-        padding-top: 10px;
-      }
-    }
-    .row {
-      display: flex;
-      justify-content: center;
-    }
-    .pictures {
-      margin: 4px;
-    }
-    #social {
-      display: flex;
-      justify-content: flex-end;
-    } 
-#copyright{
-    float: left;
-}
-#copyright p{
-    padding-left: 20px;
+         
+    
 }
   
